@@ -78,6 +78,17 @@ input {
     padding: 0.75rem;
     background-color: #f4f6f8;
   }
+
+  .error {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: .9em;
+    display: inline-flex;
+    margin-top: 10px;
+    padding: 0.75rem;
+    background-color: #c43030;
+  }
 }
 
 .transfer {
