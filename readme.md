@@ -1,3 +1,10 @@
+## To play around
+
+In the srver/tmp.txt file you can find private and public keys to play around.
+In the server/generate.js you can find js code used to generate private/public keys, signatues...
+
+Server only stores addresses (no private or public key). User need to provide signed message with recovery bit to be able to see his balance and transfer money. (from signature and recovery bit we recover public key and transform it to address)
+
 ## ECDSA Node
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
