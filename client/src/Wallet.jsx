@@ -68,7 +68,7 @@ function Wallet({ signature, setSignature, balance, setBalance, recoveryBit, set
       </label>
 
       <label>
-        Reovery Bit
+        Recovery Bit
         <input placeholder="Type a Recovery Bit to verify your Address" value={recoveryBit} onChange={onRecoveryChange}></input>
       </label>
 
